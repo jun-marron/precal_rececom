@@ -1,1082 +1,166 @@
 <mxfile host="65bd71144e">
     <diagram id="Bw7fBSQwyuvwX_eZTn5h" name="2022-07-11">
-        <mxGraphModel dx="2497" dy="1068" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="3786" dy="2776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="11" value="" style="edgeStyle=none;html=1;" parent="1" source="87" target="10" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="120" y="380" as="sourcePoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="90" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="10" target="89">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="10" value="レコード識別番号&lt;br&gt;=&lt;br&gt;YK" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
-                    <mxGeometry x="60" y="440" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="14" value="&lt;span style=&quot;text-align: center&quot;&gt;薬局情報レコード&lt;br&gt;&lt;/span&gt;&lt;br style=&quot;text-align: center&quot;&gt;レコード識別番号,&lt;br&gt;審査支払機関,&lt;br&gt;都道府県,&lt;br&gt;点数表,&lt;br&gt;薬局コード,&lt;br&gt;薬局連絡先名称,&lt;br&gt;請求年月,&lt;br&gt;マルチボリューム識別情報,&lt;br&gt;電話番号" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;" parent="1" vertex="1">
-                    <mxGeometry x="200" y="320" width="240" height="200" as="geometry"/>
-                </mxCell>
-                <mxCell id="47" style="edgeStyle=none;html=1;" edge="1" parent="1" source="30" target="45">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="180" y="880" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="320" y="820"/>
-                            <mxPoint x="120" y="820"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="30" value="&lt;span&gt;審査支払機関&lt;br&gt;&lt;/span&gt;=&lt;br&gt;&lt;span&gt;2 国民健康保険団体連合会&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="260" y="720" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="42" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(240, 240, 240); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(42, 42, 42); display: inline; float: none;&quot;&gt;1 社会保険診療報酬支払基金&lt;/span&gt;" style="edgeStyle=none;html=1;" edge="1" parent="1" source="89" target="41">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="120" y="640" as="sourcePoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="46" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="41" target="45">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="41" value="&lt;span&gt;審査支払機関&lt;br&gt;&lt;/span&gt;=&lt;br&gt;&lt;span&gt;1 社会保険診療報酬支払基金&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="60" y="720" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="49" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="45" target="48">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="45" value="&lt;span style=&quot;text-align: left&quot;&gt;都道府県&lt;br&gt;=&lt;br&gt;薬局-&amp;gt;都道府県コード&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="60" y="880" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="51" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="48" target="50">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="48" value="&lt;span style=&quot;text-align: left&quot;&gt;点数表&lt;br&gt;=&lt;br&gt;薬局-&amp;gt;点数表コード&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="60" y="1000" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="53" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="50" target="52">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="50" value="&lt;span style=&quot;text-align: left&quot;&gt;薬局コード&lt;br&gt;=&lt;br&gt;薬局-&amp;gt;薬局コード&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="60" y="1120" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="55" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="52" target="54">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="52" value="&lt;span style=&quot;text-align: left&quot;&gt;薬局連絡先名称&lt;/span&gt;&lt;span style=&quot;text-align: left&quot;&gt;&lt;br&gt;=&lt;br&gt;薬局-&amp;gt;名称&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="60" y="1240" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="57" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="54" target="56">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="54" value="&lt;span style=&quot;text-align: left&quot;&gt;請求年月&lt;br&gt;=&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: left&quot;&gt;$請求年月&lt;/span&gt;&lt;span style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="60" y="1360" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="59" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="56" target="58">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="56" value="&lt;span style=&quot;text-align: left&quot;&gt;マルチボリューム&lt;br&gt;識別情報&lt;br&gt;=&lt;br&gt;00&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="60" y="1480" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="84" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="58" target="83">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="58" value="&lt;span style=&quot;text-align: left&quot;&gt;電話番号&lt;br&gt;=&lt;br&gt;薬局-&amp;gt;電話番号&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="60" y="1600" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="83" value="終了" style="ellipse;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="60" y="1720" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="87" value="$審査支払機関&lt;br&gt;&lt;span style=&quot;text-align: left&quot;&gt;$請求年月&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="60" y="320" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="91" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(240, 240, 240); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(42, 42, 42); display: inline; float: none;&quot;&gt;2 国民健康保険団体連合会&lt;/span&gt;" style="edgeStyle=none;html=1;" edge="1" parent="1" source="89" target="30">
-                    <mxGeometry x="0.7143" relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="320" y="600"/>
-                        </Array>
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="89" value="&lt;span&gt;$審査支払&lt;br&gt;機関&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="80" y="560" width="80" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="140" style="edgeStyle=none;html=1;" edge="1" parent="1" source="95" target="101">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="95" value="&lt;span&gt;$審査支払機関&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;text-align: left&quot;&gt;$請求年月&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="860" y="320" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="96" value="&lt;div&gt;&lt;span&gt;レセプト共通レコード&lt;br&gt;&lt;br&gt;レコード識別番号,&lt;br&gt;レセプト番号,&lt;br&gt;レセプト種別,&lt;br&gt;調剤年月,&lt;br&gt;氏名,&lt;br&gt;給付割合,&lt;br&gt;レセプト特記事項,&lt;br&gt;医療機関都道府県,&lt;br&gt;医療機関点数表,&lt;br&gt;医療機関コード,&lt;br&gt;医療機関名称,&lt;br&gt;医療機関所在地,&lt;br&gt;保険医氏名①,&lt;/span&gt;&lt;/div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;〜&lt;br&gt;&lt;/span&gt;&lt;span&gt;保険医氏名⑳,&lt;/span&gt;&lt;div&gt;&lt;span&gt;麻薬免許番号,&lt;br&gt;調剤録番号,&lt;br&gt;予備,&lt;br&gt;検索番号,&lt;br&gt;予備,&lt;br&gt;請求番号,&lt;br&gt;一部負担金,&lt;br&gt;カタカナ（氏名）&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;" vertex="1" parent="1">
-                    <mxGeometry x="1050" y="320" width="240" height="400" as="geometry"/>
-                </mxCell>
-                <mxCell id="114" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="97" target="113">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="97" value="&lt;span style=&quot;text-align: left&quot;&gt;レコード識別番号&lt;br&gt;=&lt;br&gt;RE&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="860" y="680" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="139" style="edgeStyle=none;html=1;" edge="1" parent="1" source="99" target="97">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="99" value="$処方せん配列&lt;br&gt;$i = 1, $i ++" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-                    <mxGeometry x="860" y="560" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="111" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="101" target="99">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="920" y="620" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="101" value="処方せん配列&lt;br&gt;取得&lt;br&gt;（$審査支払機関&lt;br&gt;&lt;span style=&quot;text-align: left&quot;&gt;$請求年月&lt;/span&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20style%3D%22edgeStyle%3Dnone%3Bhtml%3D1%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%222240%22%20y%3D%221580%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%221760%22%20y%3D%221640%22%20as%3D%22targetPoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%222240%22%20y%3D%221610%22%2F%3E%3CmxPoint%20x%3D%221760%22%20y%3D%221610%22%2F%3E%3C%2FArray%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;）" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="860" y="440" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="106" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="103" target="105">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="103" value="$処方せん配列&lt;br&gt;$i = 1, $i ++" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;direction=west;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-                    <mxGeometry x="860" y="4120" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="105" value="$レセプト配列" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="860" y="4243" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="338" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="113" target="337">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="113" value="&lt;span style=&quot;text-align: left&quot;&gt;レセプト番号&lt;br&gt;=&lt;br&gt;$i&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="860" y="800" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="203" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="116" target="202">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="116" value="&lt;span style=&quot;text-align: left&quot;&gt;レセプト種別&lt;br&gt;=&lt;br&gt;$レセプト種別コード&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="860" y="1040" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="121" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="118" target="120">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="118" value="&lt;span&gt;$審査支払機関&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;text-align: left&quot;&gt;$請求年月&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="1700" y="320" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="119" value="&lt;span style=&quot;text-align: center&quot;&gt;処方せん配列取得&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;" vertex="1" parent="1">
-                    <mxGeometry x="1840" y="320" width="240" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="208" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="120" target="207">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="1760" y="560" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="120" value="調剤年月が&lt;br&gt;&lt;span style=&quot;text-align: left&quot;&gt;$請求年月&lt;/span&gt;の&lt;br&gt;$処方せん配列取得&amp;nbsp;" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="1700" y="440" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="167" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(240, 240, 240); font-family: helvetica; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(42, 42, 42); display: inline; float: none;&quot;&gt;医療保険なし&lt;/span&gt;&lt;br style=&quot;color: rgb(240, 240, 240); font-family: helvetica; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(42, 42, 42);&quot;&gt;&lt;span style=&quot;color: rgb(240, 240, 240); font-family: helvetica; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(42, 42, 42); display: inline; float: none;&quot;&gt;公費&lt;/span&gt;" style="edgeStyle=none;html=1;" edge="1" parent="1" source="124" target="157">
-                    <mxGeometry x="0.9" relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="2600" y="680"/>
-                            <mxPoint x="2920" y="680"/>
-                        </Array>
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="168" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(240, 240, 240); font-family: helvetica; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(42, 42, 42); display: inline; float: none;&quot;&gt;法別番号 なし&lt;/span&gt;" style="edgeStyle=none;html=1;" edge="1" parent="1" source="124" target="128">
-                    <mxGeometry x="0.8333" relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="2600" y="680"/>
-                            <mxPoint x="2760" y="680"/>
-                        </Array>
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="169" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(240, 240, 240); font-family: helvetica; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(42, 42, 42); display: inline; float: none;&quot;&gt;法別番号 67&lt;/span&gt;" style="edgeStyle=none;html=1;" edge="1" parent="1" source="124" target="156">
-                    <mxGeometry x="0.9444" relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="2600" y="680"/>
-                            <mxPoint x="3240" y="680"/>
-                        </Array>
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="170" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(240, 240, 240); font-family: helvetica; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(42, 42, 42); display: inline; float: none;&quot;&gt;法別番号 39&lt;/span&gt;" style="edgeStyle=none;html=1;" edge="1" parent="1" source="124" target="130">
-                    <mxGeometry x="0.9286" relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="2600" y="680"/>
-                            <mxPoint x="3080" y="680"/>
-                        </Array>
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="171" value="&lt;span style=&quot;color: rgb(240 , 240 , 240) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(42 , 42 , 42) ; display: inline ; float: none&quot;&gt;法別番号 あり&lt;br&gt;(39, 67以外)&lt;br&gt;&lt;/span&gt;" style="edgeStyle=none;html=1;" edge="1" parent="1" source="124" target="132">
-                    <mxGeometry x="0.5" relative="1" as="geometry">
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="124" value="法別番号" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="2560" y="560" width="80" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="175" style="edgeStyle=none;html=1;" edge="1" parent="1" source="128" target="142">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="2760" y="810"/>
-                            <mxPoint x="2600" y="810"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="128" value="&lt;span style=&quot;font-size: 11px&quot;&gt;国保&lt;br&gt;X1XX&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="2700" y="720" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="178" style="edgeStyle=none;html=1;" edge="1" parent="1" source="130" target="142">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="3080" y="810"/>
-                            <mxPoint x="2600" y="810"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="130" value="&lt;span style=&quot;font-size: 11px&quot;&gt;後期高齢者&lt;br&gt;X3XX&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="3020" y="720" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="172" style="edgeStyle=none;html=1;" edge="1" parent="1" source="132" target="142">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="132" value="&lt;span style=&quot;font-size: 11px&quot;&gt;社保&lt;br&gt;X1XX&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="2540" y="720" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="147" value="単独" style="edgeStyle=none;html=1;" edge="1" parent="1" source="142" target="146">
-                    <mxGeometry x="0.5" relative="1" as="geometry">
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="149" value="1種類" style="edgeStyle=none;html=1;" edge="1" parent="1" source="142" target="148">
-                    <mxGeometry x="0.84" relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="2600" y="960"/>
-                            <mxPoint x="2760" y="960"/>
-                        </Array>
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="142" value="公費併用" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="2560" y="840" width="80" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="174" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="146" target="173">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="146" value="XX1X" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="2540" y="1000" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="148" value="XX2X" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="2700" y="1000" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="150" value="&lt;span&gt;XX3X&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="2860" y="1000" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="151" value="&lt;span&gt;XX4X&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="3020" y="1000" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="152" value="&lt;span style=&quot;color: rgb(240 , 240 , 240) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(42 , 42 , 42) ; display: inline ; float: none&quot;&gt;XX5X&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="3180" y="1000" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="153" value="2種類" style="edgeStyle=none;html=1;" edge="1" parent="1" source="142" target="150">
-                    <mxGeometry x="0.9024" relative="1" as="geometry">
-                        <mxPoint x="2720" y="900" as="sourcePoint"/>
-                        <mxPoint x="2880" y="990" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="2600" y="960"/>
-                            <mxPoint x="2920" y="960"/>
-                        </Array>
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="154" value="3種類" style="edgeStyle=none;html=1;" edge="1" parent="1" source="142" target="151">
-                    <mxGeometry x="0.9298" relative="1" as="geometry">
-                        <mxPoint x="2690" y="890" as="sourcePoint"/>
-                        <mxPoint x="3010" y="980" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="2600" y="960"/>
-                            <mxPoint x="3080" y="960"/>
-                        </Array>
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="155" value="4種類" style="edgeStyle=none;html=1;" edge="1" parent="1" source="142" target="152">
-                    <mxGeometry x="0.9452" relative="1" as="geometry">
-                        <mxPoint x="2610" y="930" as="sourcePoint"/>
-                        <mxPoint x="3090" y="1020" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="2600" y="960"/>
-                            <mxPoint x="3240" y="960"/>
-                        </Array>
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="177" style="edgeStyle=none;html=1;" edge="1" parent="1" source="156" target="142">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="3240" y="810"/>
-                            <mxPoint x="2600" y="810"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="156" value="&lt;span style=&quot;font-size: 11px&quot;&gt;退職者&lt;br&gt;X4XX&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="3180" y="720" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="176" style="edgeStyle=none;html=1;" edge="1" parent="1" source="157" target="142">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="2920" y="810"/>
-                            <mxPoint x="2600" y="810"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="157" value="&lt;span style=&quot;font-size: 11px&quot;&gt;公費&lt;br&gt;X2XX&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="2860" y="720" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="180" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="173" target="179">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="188" value="本人／世帯主" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="180">
-                    <mxGeometry x="0.3" y="5" relative="1" as="geometry">
-                        <mxPoint x="-5" y="8" as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="182" value="未就学者" style="edgeStyle=none;html=1;" edge="1" parent="1" source="173" target="181">
-                    <mxGeometry x="0.84" relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="2600" y="1240"/>
-                            <mxPoint x="2770" y="1240"/>
-                        </Array>
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="185" value="家族／その他" style="edgeStyle=none;html=1;" edge="1" parent="1" source="173" target="184">
-                    <mxGeometry x="0.9024" relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="2600" y="1240"/>
-                            <mxPoint x="2920" y="1240"/>
-                        </Array>
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="187" value="一般・低所得者" style="edgeStyle=none;html=1;" edge="1" parent="1" source="173" target="186">
-                    <mxGeometry x="0.9298" relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="2600" y="1240"/>
-                            <mxPoint x="3080" y="1240"/>
-                        </Array>
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="192" value="7割" style="edgeStyle=none;html=1;" edge="1" parent="1" source="173" target="191">
-                    <mxGeometry x="0.9444" relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="2600" y="1240"/>
-                            <mxPoint x="3240" y="1240"/>
-                        </Array>
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="173" value="区分" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="2560" y="1120" width="80" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="194" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="179" target="346">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="2600" y="1400" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="179" value="XXX2" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;" vertex="1" parent="1">
-                    <mxGeometry x="2540" y="1280" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="195" style="edgeStyle=none;html=1;" edge="1" parent="1" source="181" target="346">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="2600" y="1400" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="2760" y="1370"/>
-                            <mxPoint x="2600" y="1370"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="181" value="XXX4" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="2700" y="1280" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="196" style="edgeStyle=none;html=1;" edge="1" parent="1" source="184" target="346">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="2600" y="1400" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="2920" y="1370"/>
-                            <mxPoint x="2600" y="1370"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="184" value="XXX6" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="2860" y="1280" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="197" style="edgeStyle=none;html=1;" edge="1" parent="1" source="186" target="346">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="2600" y="1400" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="3080" y="1370"/>
-                            <mxPoint x="2600" y="1370"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="186" value="XXX8" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="3020" y="1280" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="198" style="edgeStyle=none;html=1;" edge="1" parent="1" source="191" target="346">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="2600" y="1400" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="3240" y="1370"/>
-                            <mxPoint x="2600" y="1370"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="191" value="XXX0" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="3180" y="1280" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="201" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="199" target="124">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="199" value="$レセプト種別コード&lt;br&gt;4XXX" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="2540" y="440" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="348" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="202" target="347">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="202" value="調剤年月&lt;br&gt;=&lt;br&gt;$処方せん-&amp;gt;調剤年月" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="860" y="1160" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="205" value="$処方せん配列" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;strokeWidth=2;shadow=0;sketch=0;" vertex="1" parent="1">
-                    <mxGeometry x="1700" y="840" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="210" value="社保" style="edgeStyle=none;html=1;" edge="1" parent="1" source="207" target="209">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="212" value="国保" style="edgeStyle=none;html=1;" edge="1" parent="1" source="207" target="211">
-                    <mxGeometry x="0.6667" relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="1920" y="600"/>
-                            <mxPoint x="1920" y="680"/>
-                        </Array>
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="207" value="&lt;span&gt;$審査支払機関&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="1720" y="560" width="80" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="209" value="（法別番号 あり&lt;br&gt;かつ39, 67以外）&lt;br&gt;もしくは公費&lt;br&gt;で絞り込み" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="1700" y="720" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="336" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="211" target="205">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="1920" y="810"/>
-                            <mxPoint x="1760" y="810"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="211" value="法別番号 なし&lt;br&gt;もしくは39, 67&lt;br&gt;で絞り込み" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="1860" y="720" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="218" style="edgeStyle=none;html=1;" edge="1" parent="1" source="209" target="205">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="1760" y="770" as="sourcePoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="393" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="219" target="392">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="219" value="氏名&lt;br&gt;=&lt;br&gt;$患者氏名" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="859" y="1400" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="242" style="edgeStyle=none;html=1;" edge="1" parent="1" source="148" target="173">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="2770" y="1350" as="sourcePoint"/>
-                        <mxPoint x="2610" y="1410" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="2760" y="1090"/>
-                            <mxPoint x="2600" y="1090"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="243" style="edgeStyle=none;html=1;" edge="1" parent="1" source="150" target="173">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="2920" y="1070" as="sourcePoint"/>
-                        <mxPoint x="2760" y="1130" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="2920" y="1090"/>
-                            <mxPoint x="2600" y="1090"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="244" style="edgeStyle=none;html=1;" edge="1" parent="1" source="151" target="173">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="3080" y="1060" as="sourcePoint"/>
-                        <mxPoint x="2760" y="1120" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="3080" y="1090"/>
-                            <mxPoint x="2600" y="1090"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="245" style="edgeStyle=none;html=1;" edge="1" parent="1" source="152" target="173">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="3240" y="1060" as="sourcePoint"/>
-                        <mxPoint x="2760" y="1120" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="3240" y="1090"/>
-                            <mxPoint x="2600" y="1090"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="292" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="285" target="291">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="285" value="&lt;span style=&quot;text-align: left&quot;&gt;レセプト特記事項&lt;br&gt;=&lt;br&gt;$処方せん&lt;br&gt;-&amp;gt;レセプト種別管理&lt;br&gt;-&amp;gt;レセプト特記事項コード&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="860" y="1760" width="120" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="294" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="291" target="293">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="291" value="医療機関都道府県&lt;br&gt;=&lt;br&gt;$処方せん&lt;br&gt;-&amp;gt;医療機関&lt;br&gt;-&amp;gt;都道府県コード" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="860" y="1920" width="120" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="296" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="293" target="295">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="293" value="医療機関点数表&lt;br&gt;=&lt;br&gt;$処方せん&lt;br&gt;-&amp;gt;医療機関&lt;br&gt;-&amp;gt;点数表コード" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="860" y="2040" width="120" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="298" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="295" target="297">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="295" value="医療機関コード&lt;br&gt;=&lt;br&gt;$処方せん&lt;br&gt;-&amp;gt;医療機関&lt;br&gt;-&amp;gt;コード" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="860" y="2160" width="120" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="300" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="297" target="299">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="297" value="医療機関名称&lt;br&gt;=&lt;br&gt;$処方せん&lt;br&gt;-&amp;gt;医療機関&lt;br&gt;-&amp;gt;名称" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="860" y="2280" width="120" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="302" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="299" target="301">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="299" value="医療機関所在地&lt;br&gt;=&lt;br&gt;$処方せん&lt;br&gt;-&amp;gt;医療機関&lt;br&gt;-&amp;gt;所在地" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="860" y="2400" width="120" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="305" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="301" target="304">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="301" value="$処方せん&lt;br&gt;-&amp;gt;保険医&lt;br&gt;i = ①, i &amp;lt;= 20, i++" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
-                    <mxGeometry x="860" y="2520" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="308" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="303" target="309">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="303" value="&lt;span&gt;$処方せん&lt;/span&gt;&lt;br&gt;&lt;span&gt;-&amp;gt;保険医&lt;/span&gt;" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;direction=west;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
-                    <mxGeometry x="860" y="2760" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="306" style="edgeStyle=none;html=1;" edge="1" parent="1" source="304" target="303">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="304" value="保険医師名i&lt;br&gt;=&lt;br&gt;$保険医-&amp;gt;氏名" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="860" y="2640" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="329" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="309" target="328">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="309" value="麻薬処方せんチェック" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="860" y="2880" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="314" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="312" target="313">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="312" value="麻薬処方せん&lt;br&gt;チェック" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="5020" y="320" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="320" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="313" target="319">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="313" value="$処方せん&lt;br&gt;-&amp;gt;保険医&lt;br&gt;-&amp;gt;レシピ&lt;br&gt;-&amp;gt;医薬品&lt;br&gt;-&amp;gt;医薬品マスタ&lt;br&gt;-&amp;gt;麻薬フラグ" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="5020" y="440" width="120" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="315" value="&lt;span style=&quot;text-align: center&quot;&gt;麻薬処方せんチェック&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;" vertex="1" parent="1">
-                    <mxGeometry x="5200" y="320" width="240" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="334" value="no" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="319" target="323">
-                    <mxGeometry x="0.6667" relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="5240" y="640"/>
-                        </Array>
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="335" value="yes" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="319" target="321">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="319" value="麻薬フラグ&lt;br&gt;を含む" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="5040" y="600" width="80" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="326" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="321" target="325">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="321" value="true" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="5020" y="720" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="327" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="323" target="325">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="5240" y="810"/>
-                            <mxPoint x="5080" y="810"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="323" value="false" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="5180" y="720" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="325" value="$麻薬処方せんチェック" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="5020" y="840" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="340" value="true" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="328" target="330">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="350" value="false" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="328" target="332">
-                    <mxGeometry x="0.6667" relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="1080" y="3040"/>
-                        </Array>
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="328" value="$麻薬処方せんチェック" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="880" y="3000" width="80" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="403" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="330" target="402">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="330" value="麻薬免許番号&lt;br&gt;=&lt;br&gt;$薬局-&amp;gt;麻薬免許番号" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="860" y="3160" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="404" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="332" target="402">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="1080" y="3250"/>
-                            <mxPoint x="919" y="3250"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="332" value="麻薬免許番号&lt;br&gt;=&lt;br&gt;なし" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="1020" y="3160" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="339" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="337" target="116">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="337" value="&lt;span&gt;レセプト種別&lt;br&gt;コード取得&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="860" y="920" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="342" value="&lt;span style=&quot;text-align: center&quot;&gt;レセプト種別&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;コード取得&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;" vertex="1" parent="1">
-                    <mxGeometry x="2720" y="320" width="240" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="345" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="343" target="199">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="343" value="$処方せん" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="2540" y="320" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="346" value="$レセプト種別コード" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="2540" y="1400" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="349" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="347" target="219">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="347" value="患者氏名取得" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="860" y="1280" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="351" value="&lt;span style=&quot;text-align: center&quot;&gt;患者氏名取得&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;" vertex="1" parent="1">
-                    <mxGeometry x="3560" y="320" width="240" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="354" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="352" target="353">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="352" value="&lt;span&gt;患者氏名取得&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="3380" y="320" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="358" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="353" target="357">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="353" value="$患者&lt;br&gt;姓と名を取得" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="3380" y="440" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="360" value="nullでない" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="357" target="359">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="363" value="null" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="357" target="362">
-                    <mxGeometry x="0.7143" relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="3640" y="600"/>
-                        </Array>
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="357" value="名がnullか" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="3400" y="560" width="80" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="365" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="359" target="364">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="359" value="$患者氏名&lt;br&gt;=&lt;br&gt;姓+ &quot;全角スペース&quot;&lt;br&gt;+ 名" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="3380" y="720" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="366" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="362" target="364">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="3640" y="810"/>
-                            <mxPoint x="3440" y="810"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="362" value="$患者氏名&lt;br&gt;=&lt;br&gt;姓" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="3580" y="720" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="364" value="$患者氏名" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="3380" y="840" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="367" value="国保&lt;br&gt;または&lt;br&gt;退職者" style="edgeStyle=none;html=1;" edge="1" parent="1" source="369" target="383">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="368" value="その他" style="edgeStyle=none;html=1;" edge="1" parent="1" source="369" target="387">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="369" value="医療保険" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="4200" y="440" width="80" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="401" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="371" target="400">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="371" value="&lt;span style=&quot;text-align: left&quot;&gt;給付割合&lt;br&gt;&lt;/span&gt;=&lt;br&gt;80" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="4180" y="760" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="372" style="edgeStyle=none;html=1;" edge="1" parent="1" source="373" target="400">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="4241.25" y="880" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="4402" y="850"/>
-                            <mxPoint x="4240" y="850"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="373" value="&lt;span style=&quot;text-align: left&quot;&gt;給付割合&lt;br&gt;&lt;/span&gt;=&lt;br&gt;70" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="4340" y="760" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="374" value="現役並み所得者" style="edgeStyle=none;html=1;" edge="1" parent="1" source="377" target="373">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="4622" y="800" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="375" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="377" target="379">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="4722" y="844" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="4560" y="640"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="376" value="一般所得者" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="375">
-                    <mxGeometry x="0.075" y="1" relative="1" as="geometry">
-                        <mxPoint x="-1" y="71" as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="377" value="所得区分" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="4360" y="600" width="80" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="378" style="edgeStyle=none;html=1;" edge="1" parent="1" source="379" target="400">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="4241.25" y="880" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="4561" y="850"/>
-                            <mxPoint x="4240" y="850"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="379" value="&lt;span style=&quot;text-align: left&quot;&gt;給付割合&lt;br&gt;&lt;/span&gt;=&lt;br&gt;80" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;" vertex="1" parent="1">
-                    <mxGeometry x="4500" y="760" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="380" value="未就学児" style="edgeStyle=none;html=1;" edge="1" parent="1" source="383" target="371">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="381" value="一般" style="edgeStyle=none;html=1;" edge="1" parent="1" source="383" target="373">
-                    <mxGeometry x="0.2529" y="3" relative="1" as="geometry">
-                        <mxPoint x="-1" as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="382" value="高齢受給者" style="edgeStyle=none;html=1;" edge="1" parent="1" source="383" target="377">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="383" value="対象者" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="4200" y="600" width="80" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="384" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="387" target="389">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="385" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="384">
-                    <mxGeometry x="0.3386" y="-1" relative="1" as="geometry">
-                        <mxPoint x="1" y="39" as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="386" value="no" style="edgeStyle=none;html=1;" edge="1" parent="1" source="387" target="391">
-                    <mxGeometry x="0.8" relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="4880" y="480"/>
-                            <mxPoint x="4882" y="680"/>
-                        </Array>
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="387" value="保険未加入&lt;br&gt;かつ&lt;br&gt;被爆者健康手帳の交付" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="4680" y="440" width="80" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="388" style="edgeStyle=none;html=1;" edge="1" parent="1" source="389" target="400">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="4241.25" y="880" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="4720" y="850"/>
-                            <mxPoint x="4240" y="850"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="389" value="&lt;span style=&quot;text-align: left&quot;&gt;給付割合&lt;br&gt;&lt;/span&gt;=&lt;br&gt;30" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="4660" y="760" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="390" style="edgeStyle=none;html=1;" edge="1" parent="1" source="391" target="400">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="4241.25" y="880" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="4880" y="850"/>
-                            <mxPoint x="4240" y="850"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="391" value="&lt;span style=&quot;text-align: left&quot;&gt;給付割合&lt;br&gt;&lt;/span&gt;=&lt;br&gt;null" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="4820" y="760" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="395" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="392" target="394">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="392" value="給付割合取得" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="859" y="1520" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="396" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="394" target="285">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="394" value="給付割合&lt;br&gt;=&lt;br&gt;$給付割合" style="whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="859" y="1640" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="398" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="397" target="369">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="397" value="&lt;span&gt;給付割合取得&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="4180" y="320" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="399" value="&lt;span style=&quot;text-align: center&quot;&gt;給付割合取得&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;" vertex="1" parent="1">
-                    <mxGeometry x="4360" y="320" width="240" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="400" value="$給付割合" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="4180" y="900" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="406" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="402" target="405">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="402" value="調剤録番号等&lt;br&gt;=&lt;br&gt;$患者-&amp;gt;id" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;shadow=0;sketch=0;" vertex="1" parent="1">
-                    <mxGeometry x="859" y="3280" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="408" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="405" target="407">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="405" value="予備&lt;br&gt;=&lt;br&gt;なし" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;shadow=0;sketch=0;" vertex="1" parent="1">
-                    <mxGeometry x="859" y="3400" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="410" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="407" target="409">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="407" value="検索番号&lt;br&gt;=&lt;br&gt;なし" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;shadow=0;sketch=0;" vertex="1" parent="1">
-                    <mxGeometry x="859" y="3520" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="412" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="409" target="411">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="409" value="予備&lt;br&gt;=&lt;br&gt;なし" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;shadow=0;sketch=0;" vertex="1" parent="1">
-                    <mxGeometry x="859" y="3640" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="414" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="411" target="413">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="411" value="請求情報&lt;br&gt;=&lt;br&gt;なし" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;shadow=0;sketch=0;" vertex="1" parent="1">
-                    <mxGeometry x="859" y="3760" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="416" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="413" target="415">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="413" value="一部負担金区分&lt;br&gt;=&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;shadow=0;sketch=0;" vertex="1" parent="1">
-                    <mxGeometry x="859" y="3880" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="417" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="415" target="103">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="415" value="カタカナ（氏名）&lt;br&gt;=&lt;br&gt;$患者&lt;br&gt;-&amp;gt;カタカナ（氏名）" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;shadow=0;sketch=0;" vertex="1" parent="1">
-                    <mxGeometry x="859" y="4000" width="120" height="60" as="geometry"/>
-                </mxCell>
                 <mxCell id="424" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="418" target="423">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="418" value="&lt;span style=&quot;text-align: left&quot;&gt;$薬局&lt;/span&gt;&lt;br&gt;$審査支払機関&lt;br&gt;&lt;span style=&quot;text-align: left&quot;&gt;$請求年月&lt;br&gt;&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="-1620" y="80" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="-1620" y="120" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="422" value="&lt;div style=&quot;&quot;&gt;&lt;span&gt;請求ファイル作成&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;" vertex="1" parent="1">
-                    <mxGeometry x="-1480" y="80" width="160" height="80" as="geometry"/>
+                    <mxGeometry x="-1640" y="40" width="160" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="426" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="423" target="425">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="423" value="薬局情報レコード" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="-1620" y="200" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="-1620" y="240" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="428" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="425" target="427">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="425" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="-1620" y="320" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="-1620" y="360" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="430" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="427" target="429">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="427" value="レセプト作成" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="-1620" y="440" width="120" height="60" as="geometry"/>
+                <mxCell id="427" value="レセプト作成" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=default;opacity=50;" vertex="1" parent="1">
+                    <mxGeometry x="-1620" y="480" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="434" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="429" target="433">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="429" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;direction=west;" vertex="1" parent="1">
-                    <mxGeometry x="-1620" y="560" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="-1620" y="600" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="438" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="433" target="437">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="433" value="調剤報酬請求書&lt;br&gt;レコード作成" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="-1620" y="680" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="-1620" y="720" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="440" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="437" target="439">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="437" value="請求ファイル&lt;br&gt;作成" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="-1620" y="800" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="-1620" y="840" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="439" value="請求ファイル" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="-1620" y="920" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="-1620" y="960" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="446" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="441" target="445">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="441" value="&lt;span style=&quot;text-align: left&quot;&gt;$薬局&lt;/span&gt;&lt;br&gt;$審査支払機関&lt;br&gt;&lt;span style=&quot;text-align: left&quot;&gt;$請求年月&lt;br&gt;&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="-780" y="80" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="-780" y="120" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="442" value="&lt;div&gt;&lt;span&gt;レセプト作成&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;" vertex="1" parent="1">
-                    <mxGeometry x="-600" y="80" width="160" height="80" as="geometry"/>
+                <mxCell id="442" value="&lt;div&gt;&lt;span&gt;レセプト作成&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;fillColor=#0050ef;fontColor=#ffffff;strokeColor=default;opacity=50;" vertex="1" parent="1">
+                    <mxGeometry x="-800" y="40" width="160" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="448" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="445" target="449">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="-720.0000000000002" y="319.9999999999998" as="targetPoint"/>
+                        <mxPoint x="-720.0000000000002" y="359.9999999999998" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="445" value="レセプト共通&lt;br&gt;レコード作成" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="-780" y="200" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="-780" y="240" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="456" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="449" target="455">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="449" value="レセプト情報&lt;br&gt;作成" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="-780" y="320" width="120" height="60" as="geometry"/>
+                <mxCell id="449" value="レセプト情報&lt;br&gt;作成" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=default;opacity=50;" vertex="1" parent="1">
+                    <mxGeometry x="-780" y="360" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="458" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="455" target="457">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="455" value="処方情報&lt;br&gt;作成" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="-780" y="440" width="120" height="60" as="geometry"/>
+                <mxCell id="455" value="処方情報&lt;br&gt;作成" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=default;opacity=50;" vertex="1" parent="1">
+                    <mxGeometry x="-780" y="480" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="460" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="457" target="459">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="457" value="摘要欄レコード&lt;br&gt;作成" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="-780" y="560" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="-780" y="600" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="464" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="459" target="463">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="459" value="基本料・&lt;br&gt;薬学管理料&lt;br&gt;レコード作成" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="-780" y="680" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="-780" y="720" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="466" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="463" target="465">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="463" value="分割技術料&lt;br&gt;レコード作成" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="-780" y="800" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="-780" y="840" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="465" value="レセプト" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="-780" y="920" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="-780" y="960" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="469" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="467" target="468">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="467" value="保険者&lt;br&gt;レコード作成" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="-330" y="90" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="-540" y="120" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="471" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="468" target="470">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="468" value="公費&lt;br&gt;レコード作成" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="-330" y="210" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="-540" y="240" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="473" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="470" target="472">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="470" value="資格確認&lt;br&gt;レコード作成" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="-330" y="330" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="-540" y="360" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="475" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="472" target="474">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="472" value="受診日等&lt;br&gt;レコード作成" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="-330" y="450" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="-540" y="480" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="474" value="窓口負担額&lt;br&gt;レコード作成" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="-330" y="570" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="-540" y="600" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="478" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="476" target="477">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="476" value="処方基本&lt;br&gt;レコード作成" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="-90" y="90" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="-300" y="120" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="480" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="477" target="479">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="477" value="調剤情報&lt;br&gt;レコード作成" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="-90" y="210" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="-300" y="240" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="482" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="479" target="481">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="479" value="医薬品レコード又は特定器材レコード作成" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="-90" y="330" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="-300" y="360" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="484" value="" style="edgeStyle=none;html=1;strokeColor=default;opacity=80;" edge="1" parent="1" source="481" target="483">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="481" value="医薬品レコード又は特定器材レコード作成" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="-90" y="450" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="-300" y="480" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="483" value="コメント&lt;br&gt;レコード作成" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;shadow=0;sketch=0;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="-90" y="570" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="-300" y="600" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="485" value="&lt;div&gt;&lt;span&gt;レセプト情報作成&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;fillColor=#60a917;fontColor=#ffffff;strokeColor=default;opacity=50;" vertex="1" parent="1">
+                    <mxGeometry x="-560" y="40" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="486" value="&lt;div&gt;&lt;span&gt;レセプト処方情報作成&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=default;opacity=50;" vertex="1" parent="1">
+                    <mxGeometry x="-320" y="40" width="160" height="40" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
